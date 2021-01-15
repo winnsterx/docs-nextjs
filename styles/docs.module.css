@@ -1,0 +1,68 @@
+.doc {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #111;
+}
+
+.doc h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.doc h2,
+.doc h3,
+.doc h4,
+.doc h5 {
+  margin: 3.5rem 0 2rem 0;
+  font-weight: 600;
+}
+.doc h2 {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+.doc h3 {
+  font-size: 1.5rem;
+}
+.doc h4 {
+  font-size: 1.2rem;
+}
+
+.doc p {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 1.25rem 0;
+}
+
+.doc pre {
+  background: #1d1f21;
+  color: #f8f8f2;
+  white-space: pre;
+  overflow: auto;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 3px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.doc pre code {
+  font-size: 14px;
+  line-height: 20px;
+  background: none;
+  border: none;
+  color: white;
+}
+
+.doc p code {
+  white-space: nowrap;
+}
+
+.doc p a {
+  color: #0074de;
+}
+
+.doc .card > a {
+}
+
+.doc .card {
+}

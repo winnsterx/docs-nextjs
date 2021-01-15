@@ -1,9 +1,15 @@
+:root {
+  --spacing: 30px;
+  --purple: #4b3cff;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
 }
 
 a {
@@ -11,6 +17,75 @@ a {
   text-decoration: none;
 }
 
+/* a:hover {
+  color: purple;
+} */
+
+code {
+  background-color: #f5f5f5;
+  color: #f14668;
+  font-size: 0.875em;
+  font-weight: 400;
+  padding: 0.25em 0.5em 0.25em;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  font-family: monospace;
+}
+
 * {
   box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+button {
+  background-color: var(--purple);
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  justify-content: center;
+  padding: 0.6rem;
+  text-align: center;
+  white-space: nowrap;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.ant-tree-treenode {
+  margin: 2px;
+  font-size: 1rem;
+  color: #444444;
+}
+
+a:hover {
+  color: var(--purple);
+}
+
+.card {
+  margin: 1.5rem 0;
+  border-radius: 5px;
+  border: 1px solid #eaeaea;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.2s ease;
+}
+
+.card > a {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: #666666;
+  padding: 1.5rem;
+  border: none;
+  transition: color 0.2s ease;
 }

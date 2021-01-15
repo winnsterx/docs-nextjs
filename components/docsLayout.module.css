@@ -1,0 +1,22 @@
+.mainDoc {
+  width: 100%;
+  min-height: 100vh;
+  line-height: 1.65;
+  padding: 2rem;
+  margin: 5rem 2rem;
+}
+
+.mainDoc main {
+  max-width: 65%;
+}
+@media (min-width: 900px) {
+  .mainDoc {
+    display: flex;
+  }
+}
+
+@media (min-width: 1000px) {
+  .mainDoc {
+    padding: 0 7rem;
+  }
+}

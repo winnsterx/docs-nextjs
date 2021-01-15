@@ -1,0 +1,226 @@
+[
+  {
+    "title": "Documentation",
+    "key": "/docs",
+    "children": [
+      { "title": "Getting Started", "key": "/docs/getting-started.md" },
+      {
+        "title": "Basic Features",
+        "key": "/docs/basic-features",
+        "children": [
+          {
+            "title": "Pages",
+            "key": "/docs/basic-features/pages.md"
+          },
+          {
+            "title": "Data Fetching",
+            "key": "/docs/basic-features/data-fetching.md"
+          },
+          {
+            "title": "Built-in CSS Support",
+            "key": "/docs/basic-features/built-in-css-support.md"
+          },
+          {
+            "title": "Image Optimization",
+            "key": "/docs/basic-features/image-optimization.md"
+          },
+          {
+            "title": "Static File Serving",
+            "key": "/docs/basic-features/static-file-serving.md"
+          },
+          {
+            "title": "Fast Refresh",
+            "key": "/docs/basic-features/fast-refresh.md"
+          },
+          {
+            "title": "TypeScript",
+            "key": "/docs/basic-features/typescript.md"
+          },
+          {
+            "title": "Environment Variables",
+            "key": "/docs/basic-features/environment-variables.md"
+          },
+          {
+            "title": "Supported Browsers and Features",
+            "key": "/docs/basic-features/supported-browsers-features.md"
+          }
+        ]
+      },
+      {
+        "title": "Routing",
+        "key": "/docs/routing",
+        "children": [
+          {
+            "title": "Introduction",
+            "key": "/docs/routing/introduction.md"
+          },
+          {
+            "title": "Dynamic Routes",
+            "key": "/docs/routing/dynamic-routes.md"
+          },
+          {
+            "title": "Imperatively",
+            "key": "/docs/routing/imperatively.md"
+          },
+          {
+            "title": "Shallow Routing",
+            "key": "/docs/routing/shallow-routing.md"
+          }
+        ]
+      },
+      {
+        "title": "API Routes",
+        "key": "/docs/api-routes",
+        "children": [
+          {
+            "title": "Introduction",
+            "key": "/docs/api-routes/introduction.md"
+          },
+          {
+            "title": "Dynamic API Routes",
+            "key": "/docs/api-routes/dynamic-api-routes.md"
+          },
+          {
+            "title": "API Middlewares",
+            "key": "/docs/api-routes/api-middlewares.md"
+          },
+          {
+            "title": "Response Helpers",
+            "key": "/docs/api-routes/response-helpers.md"
+          }
+        ]
+      },
+      {
+        "title": "Deployment",
+        "key": "/docs/deployment.md"
+      },
+      {
+        "title": "Authentication",
+        "key": "/docs/authentication.md"
+      },
+      {
+        "title": "Advanced Features",
+        "key": "/docs/advanced-features",
+        "children": [
+          {
+            "title": "Preview Mode",
+            "key": "/docs/advanced-features/preview-mode.md"
+          },
+          {
+            "title": "Dynamic Import",
+            "key": "/docs/advanced-features/dynamic-import.md"
+          },
+          {
+            "title": "Automatic Static Optimization",
+            "key": "/docs/advanced-features/automatic-static-optimization.md"
+          },
+          {
+            "title": "Static HTML Export",
+            "key": "/docs/advanced-features/static-html-export.md"
+          },
+          {
+            "title": "Absolute Imports and Module Path Aliases",
+            "key": "/docs/advanced-features/module-path-aliases.md"
+          },
+          {
+            "title": "AMP Support",
+            "key": "/docs/advanced-features/amp-support",
+            "children": [
+              {
+                "title": "Introduction",
+                "key": "/docs/advanced-features/amp-support/introduction.md"
+              },
+              {
+                "title": "Adding AMP Components",
+                "key": "/docs/advanced-features/amp-support/adding-amp-components.md"
+              },
+              {
+                "title": "AMP Validation",
+                "key": "/docs/advanced-features/amp-support/amp-validation.md"
+              },
+              {
+                "title": "AMP in Static HTML export",
+                "key": "/docs/advanced-features/amp-support/amp-in-static-html-export.md"
+              },
+              {
+                "title": "TypeScript",
+                "key": "/docs/advanced-features/amp-support/typescript.md"
+              }
+            ]
+          },
+          {
+            "title": "Customizing Babel Config",
+            "key": "/docs/advanced-features/customizing-babel-config.md"
+          },
+          {
+            "title": "Customizing PostCSS Config",
+            "key": "/docs/advanced-features/customizing-postcss-config.md"
+          },
+          {
+            "title": "Custom Server",
+            "key": "/docs/advanced-features/custom-server.md"
+          },
+          {
+            "title": "Custom `App`",
+            "key": "/docs/advanced-features/custom-app.md"
+          },
+          {
+            "title": "Custom `Document`",
+            "key": "/docs/advanced-features/custom-document.md"
+          },
+          {
+            "title": "Custom Error Page",
+            "key": "/docs/advanced-features/custom-error-page.md"
+          },
+          {
+            "title": "`src` Directory",
+            "key": "/docs/advanced-features/src-directory.md"
+          },
+          {
+            "title": "Multi Zones",
+            "key": "/docs/advanced-features/multi-zones.md"
+          },
+          {
+            "title": "Measuring performance",
+            "key": "/docs/advanced-features/measuring-performance.md"
+          },
+          {
+            "title": "Debugging",
+            "key": "/docs/advanced-features/debugging.md"
+          },
+          {
+            "title": "Source Maps",
+            "key": "/docs/advanced-features/source-maps.md"
+          },
+          {
+            "title": "Codemods",
+            "key": "/docs/advanced-features/codemods.md"
+          },
+          {
+            "title": "Internationalized Routing",
+            "key": "/docs/advanced-features/i18n-routing.md"
+          }
+        ]
+      },
+      {
+        "title": "Upgrade Guide",
+        "key": "/docs/upgrading.md"
+      },
+      {
+        "title": "Migrating to Next.js",
+        "key": "/docs/migration",
+        "children": [
+          {
+            "title": "Incrementally Adopting Next.js",
+            "key": "/docs/migrating/incremental-adoption.md"
+          },
+          {
+            "title": "Migrating from Gatsby",
+            "key": "/docs/migrating/from-gatsby.md"
+          }
+        ]
+      },
+      { "title": "FAQ", "key": "/docs/faq.md" }
+    ]
+  }
+]
