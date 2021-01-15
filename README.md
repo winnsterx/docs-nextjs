@@ -2,6 +2,7 @@
 
 Minimalistic documentations page for Next.js web apps.
 
+
 ## Installation
 
 ```bash
@@ -22,6 +23,7 @@ To incorporate it in a Next.js web app,
 1. Copy over the files in `components/`, `styles/`, `lib/docs`, `pages/docs/` into corresponding directories
 2. Add `import "antd/dist/antd.css";` before other stylesheets in `pages/_app.js`
 
+
 ### docs/ structure
 
 The docs is organized in an intuitive manner.
@@ -31,15 +33,15 @@ project
 └───components
 └───pages
 └───docs
-		│   page-one.md			// path: /docs/page-one
-		│   page-two.md
-		└───heading-one			// no corresponding path
-				|   page-a.md		// path: /docs/heading-one/page-a
-				│   page-b.md
-				|   ...
-		└───heading-two
-				|		page-i.md
-				|		page-ii.md
+    │   page-one.md		// path: /docs/page-one
+    |   page-two.md
+    └───heading-one		// no corresponding path
+	|   page-a.md		// path: /docs/heading-one/page-a
+	│   page-b.md
+	|    ...
+    └───heading-two
+	|   page-i.md
+	|   page-ii.md
 ```
 
 An example:
@@ -49,13 +51,14 @@ project
 └───components
 └───pages
 └───docs
-		│   getting-started.md			// path: /docs/page-one
-		│   faq.md
-		└───basic-features			// no corresponding path
-				|   pages.md				// path: /docs/heading-one/page-a
-				│   data-fetching.md
-				|		...
+    │   getting-started.md	// path: /docs/page-one
+    │   faq.md
+    └───basic-features		// no corresponding path
+	|   pages.md		// path: /docs/heading-one/page-a
+	│   data-fetching.md
+	|   ...
 ```
+
 
 ### manifest.json
 
@@ -63,15 +66,15 @@ project
 
 manifest.json` takes on the following structure:
 
-```
+```json
 [
-	{
-		"title": "NAME",
-		"key": "/path/to/desired/directory/or/file",
-		"children": [
-			{...recursive}
-		]
-	}
+  {
+    "title": "NAME",
+    "key": "/path/to/desired/directory/or/file",
+    "children": [
+      {...recursive}
+    ]
+  }
 ]
 ```
 
@@ -103,6 +106,16 @@ An example corresponding the aforementioned docs structure:
   }
 ]
 ```
+
+
+
+## Roadmap
+
+- [ ] Making the usage more modular and installable (instead of copying over)
+- [ ] Adding search functionality in menu bar
+- [ ] Abandon antd tree for pure CSS 
+
+
 
 ## Contributing
 
