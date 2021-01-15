@@ -8,7 +8,7 @@ function DocPage({ data }) {
   return (
     <DocsLayout>
       <Head>
-        <title>Docs | Fig</title>
+        <title>Docs in Next.js</title>
       </Head>
       <article>
         <div
